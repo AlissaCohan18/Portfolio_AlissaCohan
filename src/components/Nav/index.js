@@ -4,7 +4,7 @@ function Nav() {
   return (
     <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
       <div className="container-fluid">
-        <a className="navbar-brand">Alissa Cohan</a>
+        <a className="navbar-brand" id="myName" >Alissa Cohan</a>
 
         <form class="d-flex">
           <div className="collapse navbar-collapse" id="navbarColor01">
