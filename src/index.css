@@ -25,9 +25,11 @@
 
 .projectStart {
   margin-top: 20px;
-  color:rgb(8, 64, 64);
+  color: rgb(8, 64, 64);
   font-size: large;
   font-weight: bold;
+  columns: 2;
+  text-align: center;
 }
 
 #formButton {
@@ -53,10 +55,10 @@ ul li:before {
   content: "✓ ";
 }
 
-
 .resumeDL {
-  font-size:x-large;
+  font-size: x-large;
   margin-bottom: 15px;
+  font-weight: bold;
 }
 
 .resumeDL:hover {

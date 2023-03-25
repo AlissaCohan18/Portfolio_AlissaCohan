@@ -41,7 +41,7 @@ const projectList = [
 function Portfolio() {
   return (
     <section className="container-fluid">
-      <h3>Projects</h3>
+      <h4>Sample list of my Projects</h4>
       <a>
         Note: due to the change in heroku's pricing, some of the projects below
         are no longer being hosted.<br></br>
