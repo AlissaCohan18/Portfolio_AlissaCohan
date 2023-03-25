@@ -2,7 +2,7 @@ import React from 'react'
 
 const Resume = () => {
   return (
-    <div>
+    <div className="container-fluid">
       <p>resume info will show here</p>
     </div>
   )

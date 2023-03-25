@@ -41,7 +41,7 @@ const projectList = [
 
 function Portfolio() {
   return (
-    <section>
+    <section className="container-fluid">
       <h3>Projects</h3>
       <div className="flex-row">
         {projectList.map((details, i) => (

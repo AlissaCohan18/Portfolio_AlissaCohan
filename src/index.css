@@ -11,5 +11,10 @@
   color: white;
   font-size: xx-large;
   margin-left: 40px;
+}
 
+
+#formButton {
+  margin-top: 5px;
+  margin-bottom: 25px;
 }
