@@ -1,61 +1,23 @@
-import React from "react";
+import React from 'react'
 
-const projectList = [
-  {
-    name: "Blog Site",
-    url: ""
-  },
-  {
-    name: "Coffee Butler",
-    url: ""
-  },
-  {
-    name: "WeatherMann",
-    url: ""
-  },
-  {
-    name: "SQL Demo",
-    url: ""
-  },
+const Project = (props) => {
+    const { project, index
+    } = props;
 
-  {
-    name: "Weather Forecast",
-    url: ""
-  },
-  {
-    name: "Day Planner",
-    url: ""
-  },
-
-  {
-    name: "Timed Quizzes",
-    url: ""
-  },
-  {
-    name: "Password Generator",
-    url: ""
-  },
-];
-
-function Projects() {
   return (
-    <section>
-      <h3>Projects</h3>
-      <div className="flex-row">
-        {projectList.map((image, i) => (
-          <div>
+    <div>
+       <div>
             <img
-              src={require(`../../assets/projectPhotos/${i}.png`).default}
+              src={require(`../../assets/projectPhotos/${index}.png`).default}
               //for accessibility
-              alt={image.name}
+              alt={project.name}
               className="projectImage"
-              key={image.name}
+              key={project.name}
             />
-            <a>{image.name}</a>
+            <a>{project.name}</a>
           </div>
-        ))}
-      </div>
-    </section>
-  );
+    </div>
+  )
 }
-export default Projects;
+
+export default Project
