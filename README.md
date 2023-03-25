@@ -1,7 +1,7 @@
 # Portfolio - Alissa Cohan
 
 ## Description
-The portfolio page was built to put my work and experience on display. This will be a living page that will evolve as I work on more websites and gain additional experience.
+This portfolio displays a variety of websites that I have built and/or worked on with peers. It will be a living page that evolves with updates as I gain additional experience and exposure to REACT and other languages.
 
 ## Built With
 * React
@@ -13,7 +13,7 @@ The portfolio page was built to put my work and experience on display. This will
 ![photo of projects](assets/websnip.png)
 
 ## Deployed Application URL
-
+https://alissacohan18.github.io/Portfolio_AlissaCohan/
 
 ## Contributing
 N/A
