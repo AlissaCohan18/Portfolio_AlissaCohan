@@ -9,9 +9,8 @@ function Footer() {
       <div className="container-fluid">
         <ul className="navbar-nav me-auto">
           <li className="nav-item">
-            <FontAwesomeIcon icon={faLinkedin} className="iconPict" />
-            <FontAwesomeIcon icon={faGithub} className="iconPict" />
-            <FontAwesomeIcon icon={faInbox} className="iconPict" />
+            <FontAwesomeIcon onClick={() => (window.location.href = "https://www.linkedin.com/in/alissa-cohan-869045b/")} icon={faLinkedin} className="iconPict" />
+            <FontAwesomeIcon onClick={() => (window.location.href = "https://github.com/AlissaCohan18?tab=repositories")} icon={faGithub} className="iconPict" />
           </li>
         </ul>
       </div>
@@ -20,3 +19,8 @@ function Footer() {
 }
 
 export default Footer;
+
+
+
+
+
