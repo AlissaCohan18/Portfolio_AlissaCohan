@@ -1,19 +1,19 @@
 import React from "react";
+import cohanResume from "../../assets/resume/cohanResume.docx";
 
 const Resume = () => {
   return (
     <div className="container-fluid">
-      <h4 className='reusmeIntro'>
+      <h4 className="reusmeIntro">
         {" "}
         Strategic, creative problem solver with over 15 years' experience in
         manufacturing and process improvements. Energetic learner. Excellent
         team building skills and capability to lead through stressful and
         challenging obstacles. Demonstrated ability to build effective
         relationships and deliver results.
-      </h4> <br></br>
-
+      </h4>{" "}
+      <br></br>
       <h3>SKILLS</h3>
-
       <ul className="resumelist">
         <li>React</li>
         <li>JavaScript</li>
@@ -36,8 +36,8 @@ const Resume = () => {
         <li>SAP & Microsoft Apps</li>
         <li>Team Building</li>
         <li>Process Improvements</li>
-      </ul> <br></br>
-
+      </ul>{" "}
+      <br></br>
       <h3>CERTIFICATIONS</h3>
       <ul>
         <a>
@@ -46,9 +46,12 @@ const Resume = () => {
           FUNDAMENTALS OF ENGINEERING (FE), STATE OF FLORIDA BOARD OF
           PROFESSIONAL ENGINEERS
         </a>
-      </ul><br></br>
-
-      <h3> Download full Resume</h3>
+      </ul>
+      <br></br>
+      <a className="resumeDL" href={cohanResume} download>
+        {" "}
+        Download full Resume
+      </a>
     </div>
   );
 };

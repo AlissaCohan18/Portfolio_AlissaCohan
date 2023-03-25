@@ -7,6 +7,11 @@
   margin: 20px;
 }
 
+.projectImage:hover {
+  max-width: 500%;
+  margin: 20px;
+}
+
 .iconPict {
   color: white;
   font-size: xx-large;
@@ -16,6 +21,13 @@
   color: hotpink;
   background-color: white;
   cursor: pointer;
+}
+
+.projectStart {
+  margin-top: 20px;
+  color:rgb(8, 64, 64);
+  font-size: large;
+  font-weight: bold;
 }
 
 #formButton {
@@ -39,4 +51,15 @@ ul {
 }
 ul li:before {
   content: "✓ ";
+}
+
+
+.resumeDL {
+  font-size:x-large;
+  margin-bottom: 15px;
+}
+
+.resumeDL:hover {
+  cursor: pointer;
+  color: hotpink;
 }

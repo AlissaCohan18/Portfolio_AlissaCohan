@@ -1,41 +1,40 @@
 import React from "react";
 import Project from "../Project";
 
-
 const projectList = [
   {
     name: "Blog Site",
-    url: ""
+    url: "https://github.com/AlissaCohan18/Tech_Blog",
   },
   {
     name: "Coffee Butler",
-    url: ""
+    url: "https://github.com/AlissaCohan18/CoffeeButler",
   },
   {
     name: "WeatherMann",
-    url: ""
+    url: "https://montinesproul.github.io/the-a-team/",
   },
   {
     name: "SQL Demo",
-    url: ""
+    url: "https://github.com/AlissaCohan18/Employee_Tracker",
   },
 
   {
     name: "Weather Forecast",
-    url: ""
+    url: "https://alissacohan18.github.io/Weather-Dashboard/",
   },
   {
     name: "Day Planner",
-    url: ""
+    url: "https://alissacohan18.github.io/DayCalendar/",
   },
 
   {
     name: "Timed Quizzes",
-    url: ""
+    url: "https://alissacohan18.github.io/JavaScript_Quizzer/",
   },
   {
     name: "Password Generator",
-    url: ""
+    url: "https://alissacohan18.github.io/passwordGenerator/",
   },
 ];
 
@@ -43,9 +42,15 @@ function Portfolio() {
   return (
     <section className="container-fluid">
       <h3>Projects</h3>
-      <div className="flex-row">
+      <a>
+        Note: due to the change in heroku's pricing, some of the projects below
+        are no longer being hosted.<br></br>
+        Where that is the case, clicking on the project you will bring you to
+        the Github Repo rather than the deployed site for that work
+      </a>
+      <div className="flex-row projectStart">
         {projectList.map((details, i) => (
-         <Project project ={details} index ={i}/>
+          <Project project={details} index={i} />
         ))}
       </div>
     </section>
