@@ -2,12 +2,38 @@ import React from "react";
 
 const projectList = [
   {
-    name: "MAC",
-    photoName: "0",
+    name: "Blog Site",
+    url: ""
   },
   {
-    name: "KNIGHTRO",
-    photoName: "1",
+    name: "Coffee Butler",
+    url: ""
+  },
+  {
+    name: "WeatherMann",
+    url: ""
+  },
+  {
+    name: "SQL Demo",
+    url: ""
+  },
+
+  {
+    name: "Weather Forecast",
+    url: ""
+  },
+  {
+    name: "Day Planner",
+    url: ""
+  },
+
+  {
+    name: "Timed Quizzes",
+    url: ""
+  },
+  {
+    name: "Password Generator",
+    url: ""
   },
 ];
 
@@ -19,7 +45,7 @@ function Projects() {
         {projectList.map((image, i) => (
           <div>
             <img
-              src={require(`../../assets/projectPhotos/${i}.jpg`).default}
+              src={require(`../../assets/projectPhotos/${i}.png`).default}
               //for accessibility
               alt={image.name}
               className="projectImage"
